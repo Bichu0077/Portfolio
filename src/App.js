@@ -102,23 +102,32 @@ function App() {
 
   const projects = [
     {
+      title: 'SMS Spam Detection',
+      description: 'A machine learning project that detects spam messages using Python and NLTK. Deployed using Streamlit.',
+      image: '/assets/spam.png',
+      link: 'https://sms-spam-detector-bdozhp2zelakecxjnvqsa3.streamlit.app/',
+      source: 'https://github.com/Bichu0077/sms-spam-detector',
+      tech: ['Python', 'NLTK', 'Streamlit'],
+
+    },
+    {
       title: 'Stack Overflow Clone',
       description: 'A full-stack application that mimics the functionality of Stack Overflow, built with the MERN stack.',
       image: '/assets/stack.png',
-      link: '',
+      link: 'https://eloquent-sopapillas-e3d7c9.netlify.app/',
       source: 'https://github.com/Bichu0077/stack-overflow-clone',
       tech: ['MongoDB', 'Express', 'React', 'Node.js'],
 
     },
     
-    {
-      title: 'OfferPool',
-      description: 'A website to find people who are willing to make use of an offer at a supermarket.',
-      image: '/assets/task-tracker.png',
-      link: '',
-      source: '',
-      tech: ['React', 'CSS', 'LocalStorage'],
-    },
+    // {
+    //   title: 'OfferPool',
+    //   description: 'A website to find people who are willing to make use of an offer at a supermarket.',
+    //   image: '/assets/task-tracker.png',
+    //   link: '',
+    //   source: '',
+    //   tech: ['React', 'CSS', 'LocalStorage'],
+    // },
     {
       title: 'Portfolio Website',
       description: 'This responsive portfolio website built with React and Bootstrap.',
