@@ -97,11 +97,27 @@ function App() {
     { icon: '🧠', title: 'Frontend', skills: ['HTML', 'CSS', 'JavaScript','React', 'Bootstrap', 'Tailwind', 'Next.js'] },
     { icon: '⚙️', title: 'Backend', skills: ['Node.js', 'Express', 'MongoDB', 'MySQL'] },
     { icon: '🛠️', title: 'Tools', skills: ['Git', 'GitHub', 'VS Code', 'Figma']},
-    { icon: '🤖', title: 'Machine Learning', skills: ['Python', 'TensorFlow', 'Scikit-learn'] }
+    { icon: '🤖', title: 'Machine Learning', skills: ['Python', 'TensorFlow', 'Scikit-learn'] },
+    { icon: '📊', title: 'Data Analysis', skills: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn'] },
+    { icon: '🗂️', title: 'Version Control', skills: ['Git', 'GitHub', 'GitLab'] },
+    { icon: '📦', title: 'Deployment', skills: ['Heroku', 'Netlify', 'Vercel'] },
+  
   ];
 
   const projects = [
+     {
+      title: 'Astrobot',
+      description: 'A RAG chatbot that answers questions about space using the FASTAPI framework and Wikipedia API data.',
+      image: '/assets/astrobot.png',
+      link: '#',
+      source: 'https://github.com/Bichu0077/Astrobot',
+      tech: ['NLP', 'FASTAPI', 'Wikipedia API', 'Python'],
+    },
+
+
     {
+
+      
       title: 'SMS Spam Detection',
       description: 'A machine learning project that detects spam messages using Python and NLTK. Deployed using Streamlit.',
       image: '/assets/spam.png',
@@ -128,14 +144,16 @@ function App() {
     //   source: '',
     //   tech: ['React', 'CSS', 'LocalStorage'],
     // },
-    {
-      title: 'Portfolio Website',
-      description: 'This responsive portfolio website built with React and Bootstrap.',
-      image: '/assets/Portfolio.png',
-      link: '#',
-      source: 'https://github.com/my-username/portfolio',
-      tech: ['React', 'Bootstrap', 'Framer Motion'],
-    },
+    // {
+    //   title: 'Portfolio Website',
+    //   description: 'This responsive portfolio website built with React and Bootstrap.',
+    //   image: '/assets/Portfolio.png',
+    //   link: '#',
+    //   source: 'https://github.com/my-username/portfolio',
+    //   tech: ['React', 'Bootstrap', 'Framer Motion'],
+    // },
+
+   
   ];
 
   return (
@@ -172,7 +190,7 @@ function App() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8 }}
                 >
-                  <h1 className="fw-bold">Hi, I'm Bichu Devnarayan</h1>
+                  <h2 className="fw-bold" style={{ fontSize: '2.7rem' }}>Hiiiii, I'm Bichu Devnarayan</h2>
                   <h2 className="text-primary mb-4">Software Developer</h2>
                   <p className="lead mb-4">
                     I'm a MERN stack developer and a machine learning engineer. I build full-stack web applications that are fast and user-friendly, while also working on ML projects that extract insights and solve real-world problems.
