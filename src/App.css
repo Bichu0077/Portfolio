@@ -1,46 +1,46 @@
 :root {
-/* Fiery orange color palette */
-  --primary-color: #ff6b35; /* Fiery orange */
-  --primary-hover: #e55a2b; /* Darker fiery orange for hover effect */
-  --secondary-color: #ff8c42; /* Bright warm orange */
-  --accent-color: #ff4757; /* Red-orange accent */
-  --success-color: #2ecc71; /* Bright green */
-  --warning-color: #ffa726; /* Golden orange */
-  --danger-color: #ff3838; /* Bright red */
-  
+  /* Cool blue color palette */
+  --primary-color: #1e88e5; /* Medium blue */
+  --primary-hover: #1565c0; /* Darker blue for hover effect */
+  --secondary-color: #42a5f5; /* Light sky blue */
+  --accent-color: #00bcd4; /* Cyan accent */
+  --success-color: #43a047; /* Calm green */
+  --warning-color: #ffa726; /* Amber (warm warning tone) */
+  --danger-color: #e53935; /* Soft red for errors */
+
   /* Background colors */
-  --light-bg: #fff8f5; /* Warm cream background */
-  --light-card: #ffffff; /* Clean white for card backgrounds */
-  --dark-bg: #2d1810; /* Deep burnt orange for dark background */
-  --dark-card: #3d2318; /* Dark brown-orange for card background */
-  
+  --light-bg: #f5faff; /* Light icy blue background */
+  --light-card: #ffffff; /* White card backgrounds */
+  --dark-bg: #0d1b2a; /* Deep navy for dark background */
+  --dark-card: #1b2a41; /* Slate blue card background */
+
   /* Text colors */
-  --light-text: #2d1810; /* Rich dark brown for text */
-  --dark-text: #fff8f5; /* Warm light text on dark backgrounds */
-  --muted-text: #8b6f47; /* Muted brown for secondary text */
-  
+  --light-text: #0d1b2a; /* Deep navy text */
+  --dark-text: #f5faff; /* Light icy text on dark backgrounds */
+  --muted-text: #607d8b; /* Muted blue-gray for secondary text */
+
   /* Effects */
   --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  --shadow-sm: 0 1px 3px rgba(255,107,53,0.12), 0 1px 2px rgba(255,107,53,0.24); /* Fiery orange tinted shadow */
-  --shadow-md: 0 10px 20px rgba(255,107,53,0.1), 0 6px 6px rgba(255,107,53,0.1); /* Moderate fiery shadow */
-  --shadow-lg: 0 14px 28px rgba(255,107,53,0.25), 0 10px 10px rgba(255,107,53,0.22); /* Stronger fiery shadow */
-  --shadow-xl: 0 19px 38px rgba(255,107,53,0.30), 0 15px 12px rgba(255,107,53,0.22); /* Very strong fiery shadow */
-  
+  --shadow-sm: 0 1px 3px rgba(30, 136, 229, 0.12), 0 1px 2px rgba(30, 136, 229, 0.24);
+  --shadow-md: 0 10px 20px rgba(30, 136, 229, 0.1), 0 6px 6px rgba(30, 136, 229, 0.1);
+  --shadow-lg: 0 14px 28px rgba(30, 136, 229, 0.25), 0 10px 10px rgba(30, 136, 229, 0.22);
+  --shadow-xl: 0 19px 38px rgba(30, 136, 229, 0.3), 0 15px 12px rgba(30, 136, 229, 0.22);
+
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #ff6b35 0%, #e55a2b 100%); /* Fiery orange gradient */
-  --gradient-secondary: linear-gradient(135deg, #ff8c42 0%, #ff6b35 100%); /* Warm orange gradient */
-  --gradient-accent: linear-gradient(135deg, #ff4757 0%, #ff3838 100%); /* Red-orange gradient */
-  --gradient-vibrant: linear-gradient(135deg, #ff6b35 0%, #ff4757 50%, #ffa726 100%); /* Fiery orange, red-orange, and golden mix */
-  --gradient-dark: linear-gradient(135deg, #3d2318 0%, #2d1810 100%); /* Dark burnt orange gradient */
-  --gradient-fire: linear-gradient(135deg, #ff6b35 0%, #ff4757 25%, #ff8c42 50%, #ffa726 75%, #ff6b35 100%); /* Intense fire gradient */
-  
+  --gradient-primary: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%);
+  --gradient-secondary: linear-gradient(135deg, #42a5f5 0%, #1e88e5 100%);
+  --gradient-accent: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
+  --gradient-vibrant: linear-gradient(135deg, #1e88e5 0%, #00bcd4 50%, #42a5f5 100%);
+  --gradient-dark: linear-gradient(135deg, #1b2a41 0%, #0d1b2a 100%);
+  --gradient-cool: linear-gradient(135deg, #1e88e5 0%, #00bcd4 25%, #42a5f5 50%, #90caf9 75%, #1e88e5 100%);
+
   /* Border radius */
   --border-radius-sm: 8px;
   --border-radius-md: 12px;
   --border-radius-lg: 20px;
   --border-radius-xl: 30px;
   --border-radius-full: 9999px;
-  
+
   /* Spacing */
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
@@ -48,6 +48,7 @@
   --spacing-lg: 2rem;
   --spacing-xl: 4rem;
 }
+
 
 /* Base styles */
 body {
